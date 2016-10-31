@@ -35,3 +35,33 @@ then we can run using java directly
 ```
 java -jar hello.jar
 ```
+##Part 3: The Basics of Kotlin
+###1 Declaring Variables in Kotlin
+```
+var a:Int
+var b =""  //implictly
+val c ="immutable"
+```
+###2 Working with Basic Types in Kotlin
+Byte, Long, Float, Double Ex:
+```
+10L
+100F
+0x0F
+0xb01   //binary
+```
+No explicit conversion in kotlin.
+```
+val myInt=10
+val in:Long = myInt.toLong()
+```
+####04:40 multi line string
+```
+val l = """ line """
+```
+####05:20 string interpo
+```
+var a=1
+var b=" a is $a"
+var b=" a is ${a.length}"
+```
