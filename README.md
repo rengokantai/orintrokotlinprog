@@ -65,3 +65,42 @@ var a=1
 var b=" a is $a"
 var b=" a is ${a.length}"
 ```
+
+###3 Loops and Ranges in Kotlin
+```
+for(a in 1..100){print(a)}
+for(a in 100 downTo 1 step 4){print(a)}
+for(i in listOf("a","b"))
+```
+
+###4 Conditional execution with if and when in Kotlin
+```
+val res = if(str!=""){}else{}
+println(res)  //return kotlin.Unit  (void)
+```
+use when (= case)
+```
+val res ="a"
+when(res){
+"a"->{print("yes")}
+is String -> print("b")
+}
+```
+
+use when as a variable:(must add a `default` value)
+```
+val whenval = when(res){
+"a"->{print("yes")}
+is String -> print("b")
+//same as `default`
+else print("c")
+}
+```
+
+
+##Part 4: fun with Functions
+###1 Functions in Kotlin
+```
+fun a():Unit{print("test")}
+fun sum(a:Int,b:Int):Int{return x+y}
+```
